@@ -1,0 +1,9 @@
+{
+  "short_name": "To-do",
+  "name": "Things To-do",
+  "start_url": "index.html",
+  "background_color": "#8b7c75",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#8b7c75"
+}

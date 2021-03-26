@@ -1,12 +1,12 @@
 (function() {
 
     var url = window.location.href;
-    var swLocation = '/PWA/sw.js';
+    var swLocation = '/To-do/sw.js';
 
     if (navigator.serviceWorker) {
 
         if (url.includes('localhost')) {
-            swLocation = '/sw.js';
+            swLocation = 'sw.js';
         }
 
         navigator.serviceWorker.register(swLocation);
